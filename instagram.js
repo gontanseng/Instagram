@@ -1,6 +1,6 @@
 $(document).ready(function () {
     //1.get instargram.json
-    $("#search_hashtag").click(function () {
+    $("#searchbtn").click(function () {
         var hashtag = $("#hashtag").val()
         console.log(hashtag);
         $("#post").empty();
